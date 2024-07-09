@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro</title>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="cadastro.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Cadastro</h1>
+            <img height="100" src="../logo.png" />
+            <br />
+            <form>
+                <div class="row">
+                    <div class="left">
+                        <label for="txtNome">Nome:</label>
+                        <input type="text" class="input-field" id="txtNome" />
+                    </div>
+                    <div class="right">
+                        <label for="txtSobrenome">Sobrenome:</label>
+                        <input type="text" class="input-field" id="txtSobrenome" />
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="txtCPF">CPF:</label>
+                        <input type="text" class="input-field" id="txtCPF" />
+                    </div>
+                    <div class="right">
+                        <label for="txtEmail">email:</label>
+                        <input type="email" class="input-field" id="txtEmail" />
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="txtTelefone">Telefone:</label>
+                        <input type="text" class="input-field" id="txtTelefone" />
+                    </div>
+                    <div class="right">
+                        <label for="slcGenero">Gênero:</label>
+                        <select id="slcGenero" class="input-field">
+                            <option>Masculino</option>
+                            <option>feminino</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="txtSenha">Senha:</label>
+                        <input type="password" class="input-field" id="txtSenha" />
+                    </div>
+
+
+                </div>
+                <div class="row">
+
+                    <button id="btnCadastrar">Cadastrar</button>
+                    <span id="spnErro" class="erro"></span>
+
+
+                </div>
+
+            </form>
+
+            <p>ja possui conta? <a href="tela-login.html">faça login</a></p>
+        </div>
+
+    </div>
+    <script src="tela-cadastro.js"></script>
+</body>
+</html>
+
+

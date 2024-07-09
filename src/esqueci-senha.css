@@ -1,0 +1,9 @@
+.box{
+    width:450px;
+}
+input[type="email"]{
+    width:75%;
+}
+button{
+    width:65%
+}
